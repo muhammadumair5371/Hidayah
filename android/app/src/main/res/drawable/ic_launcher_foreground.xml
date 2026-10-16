@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Decorative Outer Gold Ring -->
+    <path
+        android:strokeColor="#D4AF37"
+        android:strokeWidth="1.5"
+        android:pathData="M54,18 A36,36 0 1,1 53.9,18 Z" />
+
+    <!-- Crescent Moon (Gold) -->
+    <path
+        android:fillColor="#D4AF37"
+        android:pathData="M54,26 C40.2,26 29,37.2 29,51 C29,64.8 40.2,76 54,76 C60.5,76 66.4,73.5 70.8,69.4 C62.5,72 52.8,68 48.5,59.5 C44.2,51 46.5,40.5 53.8,34.5 C60.5,29 69,29.5 74,33 C68.2,28.5 61.2,26 54,26 Z" />
+
+    <!-- Dome Silhouette -->
+    <path
+        android:fillColor="#D4AF37"
+        android:pathData="M54,34 C51,40 45,46 45,56 L63,56 C63,46 57,40 54,34 Z" />
+
+    <!-- Eight Pointed Star Accent -->
+    <path
+        android:fillColor="#F3E5AB"
+        android:pathData="M66,32 L67.5,36.5 L72,36.5 L68.5,39.2 L69.8,43.5 L66,40.8 L62.2,43.5 L63.5,39.2 L60,36.5 L64.5,36.5 Z" />
+
+    <!-- Base Crescent Accent -->
+    <path
+        android:fillColor="#D4AF37"
+        android:pathData="M40,64 L68,64 L65,68 L43,68 Z" />
+</vector>

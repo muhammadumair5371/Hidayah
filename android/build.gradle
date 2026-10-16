@@ -1,0 +1,37 @@
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+def newBuildDir = rootProject.layout.buildDirectory.dir("../../build").get()
+rootProject.layout.buildDirectory.value(newBuildDir)
+
+subprojects {
+    def newSubprojectBuildDir = newBuildDir.dir(project.name)
+    project.layout.buildDirectory.value(newSubprojectBuildDir)
+}
+
+subprojects {
+    project.evaluationDependsOn(":app")
+}
+
+subprojects { subproject ->
+    def fixNamespace = { p ->
+        if (p.hasProperty('android')) {
+            if (p.android.namespace == null) {
+                p.android.namespace = "com.example.${p.name.replace('-', '_')}"
+            }
+        }
+    }
+    if (subproject.state.executed) {
+        fixNamespace(subproject)
+    } else {
+        subproject.afterEvaluate { fixNamespace(it) }
+    }
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.layout.buildDirectory
+}

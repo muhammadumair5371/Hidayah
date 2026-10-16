@@ -1,0 +1,86 @@
+[
+  {
+    "id": "1",
+    "name": "Tooba Mosque (Gol Masjid)",
+    "address": "Phase 2, Defence Housing Authority, Karachi",
+    "latitude": 24.8290,
+    "longitude": 67.0601
+  },
+  {
+    "id": "2",
+    "name": "Memon Masjid",
+    "address": "M.A. Jinnah Road, Bolton Market, Karachi",
+    "latitude": 24.8538,
+    "longitude": 67.0152
+  },
+  {
+    "id": "3",
+    "name": "Faisal Mosque",
+    "address": "Shah Faisal Avenue, F-8, Islamabad",
+    "latitude": 33.7297,
+    "longitude": 73.0372
+  },
+  {
+    "id": "4",
+    "name": "Badshahi Mosque",
+    "address": "Walled City, Lahore, Punjab",
+    "latitude": 31.5882,
+    "longitude": 74.3107
+  },
+  {
+    "id": "5",
+    "name": "Grand Jamia Mosque",
+    "address": "Bahria Town, Lahore, Punjab",
+    "latitude": 31.3683,
+    "longitude": 74.1852
+  },
+  {
+    "id": "6",
+    "name": "Data Darbar Mosque",
+    "address": "Data Ganj Bakhsh Road, Lahore",
+    "latitude": 31.5786,
+    "longitude": 74.3031
+  },
+  {
+    "id": "7",
+    "name": "Lal Masjid",
+    "address": "G-6/1, Islamabad",
+    "latitude": 33.7088,
+    "longitude": 73.0858
+  },
+  {
+    "id": "8",
+    "name": "Markazi Jamia Masjid",
+    "address": "Raja Bazar, Rawalpindi",
+    "latitude": 33.6128,
+    "longitude": 73.0551
+  },
+  {
+    "id": "9",
+    "name": "Sultan Masjid",
+    "address": "Phase 5, DHA, Karachi",
+    "latitude": 24.8165,
+    "longitude": 67.0702
+  },
+  {
+    "id": "10",
+    "name": "Farooq-e-Azam Mosque",
+    "address": "Gulshan-e-Iqbal Block 4, Karachi",
+    "latitude": 24.9150,
+    "longitude": 67.0822
+  },
+  {
+    "id": "11",
+    "name": "Mahabat Khan Mosque",
+    "address": "Andar Shehr, Peshawar, KPK",
+    "latitude": 34.0105,
+    "longitude": 71.5672
+  },
+  {
+    "id": "12",
+    "name": "Jamia Masjid Ghousia",
+    "address": "Samanabad, Faisalabad, Punjab",
+    "latitude": 31.4180,
+    "longitude": 73.0790
+  }
+]
